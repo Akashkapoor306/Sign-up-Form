@@ -1,0 +1,177 @@
+@font-face {
+    font-family: "logo";
+    src: url(./assets/Norse-Bold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    flex-direction: row;
+    background-color: white;
+}
+
+.img
+{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    background: url(./image/halie-west-25xggax4bSA-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+
+.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    margin-top: -400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40vw;
+
+} 
+
+.logo > img {
+    width: 80px;
+    height: auto;
+}
+
+.logo > span {
+    font-family: "Skranji", system-ui;
+    color: #fff;
+    font-size: 5rem;
+    text-transform: uppercase;
+}
+
+.container
+{
+    overflow: auto;
+    margin: 0;
+    padding: 0;;
+    width: 60%;
+    margin-top:10%;
+
+}
+
+.container> *
+{
+    padding-left: 5%;
+    padding-right: 20%;
+}
+
+
+.header>p{
+    font-size: 1.9rem;
+}
+
+.Form
+{
+    margin-top: 5rem;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.09);
+    padding-bottom: 16px;
+}
+.Form > p
+{
+    font-size: 1.9rem;
+    padding: 14px 64px 14px 0;
+}
+
+label {
+    margin-bottom: 2px;
+    font-family: "Roboto", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: 1.5px;
+    color: hsl(0deg 0% 18.27% / 95%);
+}
+input {
+    border-style: solid;
+    border: 1px rgba(182, 182, 182, 0.504) solid;
+    border-radius: 4px;
+    height: 28px;
+    width: 250px;
+    font-family: "Roboto", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 0.9rem;
+    padding-left: 8px;
+}
+
+.inputs{
+    display: flex;
+    width: auto;
+    height: 90%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    gap: 70px;
+}
+
+.left-col > div{
+    padding: 14px 64px 14px 0;
+}
+
+.right-col >div
+{
+    padding: 14px 64px 14px 0;
+}
+
+.btn>button
+{
+    margin-top: 2rem;
+    color: white;
+    font-weight: 800;
+    background-color: #5483bb;
+    border: none;
+    border-radius: 8px;
+    padding: 16px 56px 16px 56px;
+    margin-bottom: 16px;
+    font-size: medium;
+    font-family: "Roboto", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif; 
+ 
+
+
+}
+
+.btn > p{
+    font-family: "Roboto", "Franklin Gothic Medium", "Arial Narrow", Arial,
+    sans-serif;
+}
+
+.btn > p > a
+{
+    color: #5483bb;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+button:focus
+{
+    border-color: #5483bb;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.09);
+}
+
+input:focus
+{
+    border-color: #5483bb;
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.09);
+
+}
+
+
+
+
+
